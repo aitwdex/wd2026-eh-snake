@@ -1,0 +1,6 @@
+/*.container { display: flex; }*/
+.card { flex: 1; }                 /* 固定pxにせず、伸び縮みさせる */
+
+ @media (max-width: 600px) {
+  .container { flex-direction: column; }
+}
